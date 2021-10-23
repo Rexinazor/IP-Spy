@@ -1,0 +1,35 @@
+{
+    "name": "IP-Spy",
+    "description": "Trace anybody's IP",
+    "keywords": [
+        "IP"
+    ],
+    "website": "https://github.com/Rexinazor/IP-Spy",
+    "repository": "https://github.com/Rexinazor/IP-Spy",
+    "success_url": "https://github.com/Rexinazor/IP-Spy",
+    "env": {
+        "API_ID": {
+            "description": "Your APP ID From my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
