@@ -10,4 +10,4 @@ A Python Based Bot to Scrape IP info from
 
 * For Heroku Deploy Click [[Here]](https://heroku.com/deploy?template=https://github.com/Rexinazor/IP-Spy)
 
-* For Local Host, Edit the [[config.py]](https://github.com/Rexinazor/IP-Spy/blob/Alpha/config.py), and Run the Bot using `python3 -m IP-Spy.py`
+* For Local Host, Edit the [[config.py]](https://github.com/Rexinazor/IP-Spy/blob/main/config.py), and Run the Bot using `python3 -m IP-Spy.py`
